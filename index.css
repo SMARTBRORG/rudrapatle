@@ -1,0 +1,53 @@
+body{
+     background-color: rgb(87, 87, 87);
+   }
+   .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 440px; 
+     background-color: white;
+     border-radius: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+   }
+   .image {
+     max-width: 90%; 
+     max-height: 90%;
+     position: relative;
+     top: -20%;
+     border-radius: 40%;
+   }
+   .container-message1{
+     position: absolute;
+     top: 29%;
+   }
+   .container-message2{
+     position: absolute;
+     top: 38%;
+     color: rgb(195, 194, 194);
+   }
+   .rop{
+     display: flex;
+     height: 200px; 
+     background-color: white;
+     border-radius: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+   }
+   .rop button{
+     background-color:  rgb(53, 53, 252);
+     border-radius: 25px;
+     color: rgb(255, 255, 255);
+     position: relative;
+     right: -22%;
+     height: 48px;
+     width: 145px;
+     top: 29px;
+   }
+   .rop h3{
+     color: rgb(195, 194, 194);
+     position: relative;
+     left: 5%;
+   
+   }
